@@ -1,0 +1,9 @@
+{
+  "commitish" : "0.0.7",
+  "iOS" : [
+    {
+      "name" : "MRCountryPicker",
+      "hash" : "2f755360fb39019eb8eb97aeedd46715b88381ad6ea9ff3a9a96e029993ef85a"
+    }
+  ]
+}

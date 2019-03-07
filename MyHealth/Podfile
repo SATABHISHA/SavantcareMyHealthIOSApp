@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'MyHealth' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'AlamofireImage', '~> 3.0'
+pod 'MRCountryPicker', '~> 0.0.7'
+pod 'Firebase/Core'
+pod 'Firebase/Messaging'
+pod 'XCGLogger', '~> 6.0.2'
+pod 'IQKeyboardManagerSwift'
+pod 'Toaster'
+pod 'SQLite.swift'
+pod "Floaty", "~> 4.0.0"
+  # Pods for MyHealth
+
+  target 'MyHealthTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MyHealthUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

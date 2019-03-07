@@ -1,0 +1,11 @@
+framework module MRCountryPicker {
+  umbrella header "MRCountryPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MRCountryPicker.Swift {
+    header "MRCountryPicker-Swift.h"
+    requires objc
+}
